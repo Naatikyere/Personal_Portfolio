@@ -1,0 +1,50 @@
+:root{
+    color: white;
+    font-size: 16px;
+    font-family: monospace;
+
+}
+.container{
+    background-color: black;
+    min-height: 100vh;
+    margin: 0;
+
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    margin: 0 1.2em;
+    justify-content: center;
+    text-align: center;
+    margin: 0 !important;
+
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0.2em !important;
+}
+#socialHandles{
+    margin: 1.2em 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ul li{
+    margin: 0 1.3em;
+    height: 1.2em;
+    width: 1.2em;
+}
+
+#second_section{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    min-height:100% ;
+    color: black;
+    padding: 2em 3em;
+
+}
